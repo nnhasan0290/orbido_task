@@ -2,7 +2,7 @@ import assets from "../assets";
 
 const Header = () => {
   return (
-    <div className="justify-between items-center my-3 sm:flex">
+    <div className="justify-between items-center sm:flex">
       <div className="flex items-center max-sm:justify-center">
         <img src={assets.images.logo} alt="Logo" />
         <span className="font-semibold text-white uppercase">
@@ -10,7 +10,7 @@ const Header = () => {
         </span>
       </div>
       {/* nav items  */}
-      <ul className="flex sm:gap-[56px] max-sm:justify-around">
+      <ul className="flex sm:gap-[56px] max-sm:justify-around my-[36px]">
         <li className="text-white">Home</li>
         <li>About Us</li>
         <li>Features</li>
