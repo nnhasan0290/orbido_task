@@ -31,14 +31,14 @@ const BillingSection = () => {
         </div>
         <MakePaymentCard />
       </div>
-      <div className=" max-w-[470px] flex flex-col sm:gap-[24px] max-sm:mt-[25px] max-sm:p-2">
+      <div className=" max-w-[470px] flex flex-col sm:gap-[24px] gap-2 max-sm:mt-[25px] max-sm:p-2">
         <Heading>Easily control your billing & invoicing.</Heading>
         <Typography>
           Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
           aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
           placerat.
         </Typography>
-        <div className="mt-[25px] flex gap-[32px]">
+        <div className="mt-2 sm:mt-[25px] flex gap-[32px]">
           <img src={assets.images.apple} alt="" />
           <img src={assets.images.googlePlay} alt="" />
         </div>

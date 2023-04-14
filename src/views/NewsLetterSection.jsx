@@ -4,7 +4,7 @@ import Typography from "../components/Typography";
 
 const NewsLetter = () => {
   return (
-    <div className="flex justify-between newsLetter_section px-[100px] py-[72px] items-center">
+    <div className="sm:flex justify-between newsLetter_section px-2 sm:px-[100px] py-3 sm:py-[72px] items-center">
       <div className="flex gap-[24px] flex-col">
         <Heading>Let’s try our service now!</Heading>
         <Typography maxW={"445px"}>
