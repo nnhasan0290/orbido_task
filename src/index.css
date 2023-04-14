@@ -10,6 +10,8 @@
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   line-height: 130%;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .blur_filter {
